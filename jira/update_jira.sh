@@ -17,7 +17,7 @@ set -e
 export THIS=$(cd `dirname "${BASH_SOURCE[0]}"` && pwd)
 
 # Include commons
-. ${THIS}/jira_common.sh
+. ${THIS}/maintenance_common.sh
 
 # Include helpers
 . ${THIS}/../helpers.sh
